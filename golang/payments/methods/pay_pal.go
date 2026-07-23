@@ -19,5 +19,5 @@ func (c PayPal) Pay(usd int) int {
 }
 
 func (c PayPal) Cancel(id int) {
-	fmt.Println("отмена пейпал опирация id=", id)
+	fmt.Println("отмена пейпал операции id=", id)
 }
